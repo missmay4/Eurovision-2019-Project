@@ -42,7 +42,7 @@ En el, se podrán encontrar datos relativos a los participantes de cada país, a
   - [ ] Ucrania
   #### No clasificados: 
   - [ ] Armenia
-  - [ ] Azerbaiyán
+  - [ ] Azerbaiyán
   - [ ] Islandia
   - [ ] Suiza
   - [ ] Bélgica
