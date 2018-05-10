@@ -26,7 +26,7 @@ body {
 }
 
 a {
-  color: var(--c-accent);
+  color: var(--c-accent) !important;
 }
 
 a:hover, a:focus {
@@ -43,6 +43,10 @@ input {
 
 input:placeholder-shown {
   border: var(--c-accent) 2px solid;
+}
+
+h1 {
+  text-align: center;
 }
 
 header {
@@ -88,9 +92,10 @@ main img {
 }
 
 
-main div:hover img, main div:focus img {
+
+/* main div:hover img, main div:focus img {
   filter: grayscale(.3) blur(2px) brightness(.5);
-}
+} */
 
 @supports (display:grid) { /* Media query */
   main {
@@ -127,6 +132,20 @@ main div:hover img, main div:focus img {
     display: inline;
   }
 }
+
+.flags{
+  height: 40px;
+  width: 40px;
+}
+
+.centrar{
+  text-align: center;
+}
+
+.espaciocheck{
+  margin-right: auto;
+}
+
 
 /* Footer */
 
