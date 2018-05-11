@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <title>Porra Eurovision 2018</title>
 </head>
+
 <body>
-  
+
   <header>
     <div class="container">
       <div class="row">
@@ -24,14 +26,13 @@
             <a href="1semi.html">Primera semifinal</a>
             <a href="2semi.html">Segunda semifinal</a>
             <a href="final.html">Final</a>
-            <a href="https://open.spotify.com/user/deathscythe4/playlist/1vZJiwceV9OAxYKqgVitt1?si=v8xV_GtpTxS0DB22J0d8Ug">Spotify Playlist</a>
-            <a href="https://github.com/missmay4"><i class="fa fa-github"></i></a>
+            <a href="https://open.spotify.com/user/deathscythe4/playlist/2p7n1T6JZR43gr6y9Sq5SM?si=IyhjnHCETLa2tJswWMaIQw">Spotify Playlist</a>
+            <a href="https://github.com/missmay4/Eurovision-2018-Project"><i class="fa fa-github"></i></a>
             <a href="https://twitter.com/deathscythe_4"><i class="fa fa-twitter"></i></a>
           </nav>
         </div>
       </div>
     </div>
-
   </header>
 
   <main>
@@ -39,7 +40,29 @@
     <h1 class="display-4">All Aboard!</h1>
     <div class="centrar">
       <p class="lead">Vota a tus favoritos</p>
-      <a href="final.html"><button type="button" class="btn btn-outline-danger">Vota!</button></a>
+      <a href="#registroModal" role="button" data-toggle="modal"><button type="button" class="btn btn-outline-danger">Vota!</button></a>
+    </div>
+
+    <!-- Modal / Ventana / Overlay en HTML -->
+    <div id="registroModal" class="modal fade bd-example-modal-sm">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title">Registrate para votar</h6>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Nombre</label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="¿Quién eres?">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <a href="votaciones.html"><button type="submit" class="btn btn-outline-danger">A votar!</button></a>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -51,10 +74,9 @@
     <p>Imagenes cortesía de Andreyyshore, Jlechuga86 & Eurofan2005 - Trabajo propio, Dominio público, CC BY 3.0 (Wikipedia)</p>
   </footer>
 
-
-
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
