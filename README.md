@@ -25,7 +25,7 @@ En el, se podrán encontrar datos relativos a los participantes de cada país, a
   - [x] Finlandia
   - [x] Noruega
   - [x] Hungría
-  - [x] Suecia
+  - [x] Suecia
   - [x] Australia
   - [x] Dinamarca
   - [x] Moldavia
