@@ -23,23 +23,16 @@ En el, se podrán encontrar datos relativos a los participantes de cada país, a
   - [x] Bulgaria
   - [x] Irlanda
   - [x] Finlandia
-  #### Pendientes de semifinal: 
-  - [ ] Australia
-  - [ ] Dinamarca
-  - [ ] Eslovenia
-  - [ ] Georgia 
-  - [ ] Hungría
-  - [ ] Letonia
-  - [ ] Malta
-  - [ ] Moldavia
-  - [ ] Montenegro
-  - [ ] Noruega
-  - [ ] Países Bajos
-  - [ ] Polonia
-  - [ ] Rumania
-  - [ ] San Marino
-  - [ ] Serbia
-  - [ ] Ucrania
+  - [x] Noruega
+  - [x] Hungría
+  - [x] Suecia
+  - [x] Australia
+  - [x] Dinamarca
+  - [x] Moldavia
+  - [x] Eslovenia
+  - [x] Australia
+  - [x] Países Bajos
+  - [x] Ucrania
   #### No clasificados: 
   - [ ] Armenia
   - [ ] Azerbaiyán
@@ -50,3 +43,12 @@ En el, se podrán encontrar datos relativos a los participantes de cada país, a
   - [ ] Croacia
   - [ ] Macedonia (ARY)
   - [ ] Grecia
+  - [ ] Georgia 
+  - [ ] Letonia
+  - [ ] Malta
+  - [ ] Rusia
+  - [ ] Montenegro
+  - [ ] Polonia
+  - [ ] Rumania
+  - [ ] San Marino
+  - [ ] Serbia
