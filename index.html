@@ -16,7 +16,7 @@
   <header>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 col-sm-12">
           <div class="logo">
             <a href="index.html"><img src="img/EuroSongContest2018.png" alt="Eurosong Contest Portugal 2018" /></a>
           </div>
@@ -36,14 +36,20 @@
   </header>
 
   <main>
-    <h1 class="display-2">Eurovision 2018</h1>
-    <h1 class="display-4">All Aboard!</h1>
-    <div class="centrar">
-      <p class="lead">Vota a tus favoritos</p>
-      <a href="#registroModal" role="button" data-toggle="modal"><button type="button" class="btn btn-outline-danger">Vota!</button></a>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-2">Eurovision 2018</h1>
+          <h1 class="display-4">All Aboard!</h1>
+          <div class="centrar">
+            <p class="lead">Vota a tus favoritos</p>
+            <a href="#registroModal" role="button" data-toggle="modal"><button type="button" class="btn btn-outline-danger">Vota!</button></a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- Modal / Ventana / Overlay en HTML -->
+    <!-- Modal Registro -->
     <div id="registroModal" class="modal fade bd-example-modal-sm">
       <div class="modal-dialog modal-sm">
         <div class="modal-content">
@@ -51,15 +57,15 @@
             <h6 class="modal-title">Registrate para votar</h6>
           </div>
           <div class="modal-body">
-            <form>
+            <form name="formName">
               <div class="form-group">
                 <label for="exampleInputEmail1">Nombre</label>
-                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="¿Quién eres?">
+                <input type="name" name="nombre" class="form-control" id="name exampleInputEmail1" aria-describedby="emailHelp" placeholder="¿Quién eres?">
               </div>
             </form>
           </div>
           <div class="modal-footer">
-            <a href="votaciones.html"><button type="submit" class="btn btn-outline-danger">A votar!</button></a>
+            <a href="votaciones.html"><button type="submit" class="btn btn-outline-danger" onclick="onlyLetters(document.formName.nombre,event)">A votar!</button></a>
           </div>
         </div>
       </div>
@@ -74,9 +80,8 @@
     <p>Imagenes cortesía de Andreyyshore, Jlechuga86 & Eurofan2005 - Trabajo propio, Dominio público, CC BY 3.0 (Wikipedia)</p>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" type="text/javascript"></script>
+  <script src="js/comprobarNombre.js"></script>
 </body>
 
 </html>

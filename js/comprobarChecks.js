@@ -1,3 +1,4 @@
+// Permite seleccionar tres checks maximo
 var max_limit = 3; // Max Limit
 $(document).ready(function() {
   $(".checkear:input:checkbox").each(function(index) {
