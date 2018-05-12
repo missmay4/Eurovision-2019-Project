@@ -26,7 +26,7 @@ function vote()  {
   };
 
   $.ajax({
-    url: "http://iceberg.com.es/user",
+    url: "http://iceberg.com.es:8001/user",
     type: "POST",
     crossDomain: true,
     contentType: "application/json",

@@ -13,7 +13,7 @@ function showVotes(country_id) {
 
 
 $.ajax({
-  url: "http://iceberg.com.es/user/" + localStorage.getItem("user_id"),
+  url: "http://iceberg.com.es:8001/user/" + localStorage.getItem("user_id"),
   crossDomain: true,
   contentType: "application/json",
   dataType: "json",
