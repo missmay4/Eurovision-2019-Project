@@ -37,218 +37,9 @@
 
   <main>
     <h1 class="display-4">Tus votos</h1>
-    <div class="centrar">
-      <p class="lead nombrePersona"></p>
-    </div>
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>1.</b> Ucrania</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option1">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroUcrania.png" alt="EuroUcrania">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>2.</b> España</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option2">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroSpain.png" alt="EuroSpain">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>3.</b> Eslovenia</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option3">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroEslovenia.png" alt="EuroEslovenia">
-        </div>
-      </div>
+    <div id="nameContainer"></div>
+    <div class="container" id="votesContainer"></div>
 
-      <div class="row">
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>4.</b> Lituania</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option4">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroLituania.png" alt="EuroLituania">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>5.</b> Austria</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option5">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroAustria.png" alt="EuroAustria">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>6.</b> Estonia</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option6">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroEstonia.png" alt="EuroEstonia">
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>7.</b> Noruega</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option7">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroNoruega.png" alt="EuroNoruega">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>8.</b> Portugal</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option8">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroPortugal.png" alt="EuroPortugal">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>9.</b> Reino Unido</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option9">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroReinoUnido.png" alt="EuroReinoUnido">
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>10.</b> Serbia</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option10">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroSerbia.png" alt="EuroSerbia">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck espaciocheck" for="inlineCheckbox1"><b>11.</b> Alemania</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option11">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroAlemania.png" alt="EuroAlemania">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>12.</b> Albania</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option12">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroAlbania.png" alt="EuroAlbania">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>13.</b> Francia</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option13">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroFrancia.png" alt="EuroFrancia">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>14.</b> República Checa</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option14">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroRepublicaCheca.png" alt="EuroRepublicaCheca">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>15.</b> Dinamarca</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option15">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroDinamarca.png" alt="EuroDinamarca">
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>16.</b> Australia</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option16">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroAustralia.png" alt="EuroAustralia">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>17.</b> Finlandia</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option17">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroFinlandia.png" alt="EuroFinlandia">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>18.</b> Bulgaria</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option18">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroBulgaria.png" alt="EuroBulgaria">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>19.</b> Moldavia</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option19">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroMoldova.png" alt="EuroMoldova">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>20.</b> Suecia</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option20">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroSuecia.png" alt="EuroSuecia">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>21.</b> Hungría</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option21">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroHungria.png" alt="EuroHungria">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>22.</b> Israel</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option22">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroIsrael.png" alt="EuroIsrael">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>23.</b> Países Bajos</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option23">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroPaisesBajos.png" alt="EuroPaisesBajos">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>24.</b> Irlanda</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option24">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroIrlanda.png" alt="EuroIrlanda">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>25.</b> Chipre</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option25">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroChipre.png" alt="EuroChipre">
-        </div>
-        <div class="col-md-4">
-          <div class="form-check form-check-inline">
-            <label class="form-check-label espaciocheck" for="inlineCheckbox1"><b>26.</b> Italia</label>
-            <input class="form-check-input checkear" type="checkbox" id="checkboxes inlineCheckbox1" value="option26">
-          </div>
-          <img class="flags" src="img/EuroFlags/EuroItalia.png" alt="EuroItalia">
-        </div>
-      </div>
-    </div>
-    <div class="centrar">
-      <a href="#"><button type="button" class="btn btn-outline-danger">Enviar votos</button></a>
-    </div> -->
   </main>
 
   <footer>
@@ -259,8 +50,27 @@
     <p>Imagenes cortesía de Andreyyshore, Jlechuga86 & Eurofan2005 - Trabajo propio, Dominio público, CC BY 3.0 (Wikipedia)</p>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.1.0.min.js" type="text/javascript"></script>
-  <script src="js/peticiones.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="js/handlebars-v4.0.11.js" type="text/javascript"></script>
+  <script src="js/tusVotos.js" type="text/javascript"></script>
+  <script src="js/datosPaises.js" type="text/javascript"></script>
+  <!-- Template Handlebars para el Nombre y países votados -->
+  <script id="tuNombre" type="text/x-handlebars-template">
+    <div class="centrar">
+      <p class="lead nombrePersona">{{nombre}}</p>
+    </div>
+  </script>
+  <script id="paisesVotados" type="text/x-handlebars-template">
+    <div class="row">
+      <div class="col-md-4">
+        <img class="flags" src="{{img}}" alt="Euro{{nombre}}">
+      </div>
+      <div class="col-md-8">
+        <label class="form-check-label"><b>{{nombre}}</b></label>
+      </div>
+    </div>
+  </script>
+  <!-- Template Handlebars para el Nombre y países votados -->
 </body>
 
 </html>
