@@ -1,0 +1,131 @@
+var paises = [{
+  'nombre': 'Ucrania',
+  'name': 'ukraine',
+  'img': 'img/EuroFlags/EuroUcrania.png',
+  'id': 1
+}, {
+  'nombre': 'España',
+  'name': 'spain',
+  'img': 'img/EuroFlags/EuroSpain.png',
+  'id': 2
+}, {
+  'nombre': 'Eslovenia',
+  'name': 'slovenia',
+  'img': 'img/EuroFlags/EuroEslovenia.png',
+  'id': 3
+}, {
+  'nombre': 'Lituania',
+  'name': 'lithuania',
+  'img': 'img/EuroFlags/EuroLituania.png',
+  'id': 4
+}, {
+  'nombre': 'Austria',
+  'name': 'austria',
+  'img': 'img/EuroFlags/EuroAustria.png',
+  'id': 5
+}, {
+  'nombre': 'Estonia',
+  'name': 'estonia',
+  'img': 'img/EuroFlags/EuroEstonia.png',
+  'id': 6
+}, {
+  'nombre': 'Noruega',
+  'name': 'norway',
+  'img': 'img/EuroFlags/EuroNoruega.png',
+  'id': 7
+}, {
+  'nombre': 'Portugal',
+  'name': 'portugal',
+  'img': 'img/EuroFlags/EuroPortugal.png',
+  'id': 8
+}, {
+  'nombre': 'Reino Unido',
+  'name': 'united Kingdom',
+  'img': 'img/EuroFlags/EuroReinoUnido.png',
+  'id': 9
+}, {
+  'nombre': 'Serbia',
+  'name': 'serbia',
+  'img': 'img/EuroFlags/EuroSerbia.png',
+  'id': 10
+}, {
+  'nombre': 'Alemania',
+  'name': 'germany',
+  'img': 'img/EuroFlags/EuroAlemania.png',
+  'id': 11
+}, {
+  'nombre': 'Albania',
+  'name': 'albania',
+  'img': 'img/EuroFlags/EuroAlbania.png',
+  'id': 12
+}, {
+  'nombre': 'Francia',
+  'name': 'france',
+  'img': 'img/EuroFlags/EuroFrancia.png',
+  'id': 13
+}, {
+  'nombre': 'República Checa',
+  'name': 'czech Republic',
+  'img': 'img/EuroFlags/EuroRepublicaCheca.png',
+  'id': 14
+}, {
+  'nombre': 'Dinamarca',
+  'name': 'denmark',
+  'img': 'img/EuroFlags/EuroDinamarca.png',
+  'id': 15
+}, {
+  'nombre': 'Australia',
+  'name': 'australia',
+  'img': 'img/EuroFlags/EuroAustralia.png',
+  'id': 16
+}, {
+  'nombre': 'Finlandia',
+  'name': 'finland',
+  'img': 'img/EuroFlags/EuroFinlandia.png',
+  'id': 17
+}, {
+  'nombre': 'Bulgaria',
+  'name': 'bulgaria',
+  'img': 'img/EuroFlags/EuroBulgaria.png',
+  'id': 18
+}, {
+  'nombre': 'Moldavia',
+  'name': 'moldova',
+  'img': 'img/EuroFlags/EuroMoldova.png',
+  'id': 19
+}, {
+  'nombre': 'Suecia',
+  'name': 'sweden',
+  'img': 'img/EuroFlags/EuroSuecia.png',
+  'id': 20
+}, {
+  'nombre': 'Hungría',
+  'name': 'hungary',
+  'img': 'img/EuroFlags/EuroHungria.png',
+  'id': 21
+}, {
+  'nombre': 'Israel',
+  'name': 'israel',
+  'img': 'img/EuroFlags/EuroIsrael.png',
+  'id': 22
+}, {
+  'nombre': 'Países Bajos',
+  'name': 'netherlands',
+  'img': 'img/EuroFlags/EuroPaisesBajos.png',
+  'id': 23
+}, {
+  'nombre': 'Irlanda',
+  'name': 'ireland',
+  'img': 'img/EuroFlags/EuroIrlanda.png',
+  'id': 24
+}, {
+  'nombre': 'Chipre',
+  'name': 'cyprus',
+  'img': 'img/EuroFlags/EuroChipre.png',
+  'id': 25
+}, {
+  'nombre': 'Italia',
+  'name': 'italy',
+  'img': 'img/EuroFlags/EuroItalia.png',
+  'id': 26
+}];
