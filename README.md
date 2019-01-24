@@ -5,14 +5,15 @@
 Proyecto personal en el que se mostrarán todos los datos relativos a la 64ª edición de Eurovisión, celebrada en Israel. Aquí, se podrán encontrar datos relativos a los participantes de cada país, asi como votar por sus favoritos. 
 
 ### Países participantes
-  #### Big Five:
+  ### País anfitrión:   
   - [x] Israel :israel:
-  - [x] Reino Unido
-  - [x] España 
-  - [x] Francia
-  - [x] Italia
-  - [x] Alemania 
-  ### Paises pendientes de clasificación: 
+  #### Big Five:
+  - [x] Reino Unido :uk:
+  - [x] España :es:
+  - [x] Francia :fr:
+  - [x] Italia :it:
+  - [x] Alemania :de:
+  ### Países pendientes de clasificación: 
   - [ ] Albania :albania:
   - [ ] Armenia :armenia:
   - [ ] Australia :australia:
@@ -23,7 +24,7 @@ Proyecto personal en el que se mostrarán todos los datos relativos a la 64ª ed
   - [ ] Chipre :cyprus:
   - [ ] Croacia :croatia:
   - [ ] Dinamarca :denmark:
-  - [ ] Eslovenia 
+  - [ ] Eslovenia 	:slovenia:
   - [ ] Estonia :estonia:
   - [ ] Finlandia :finland:
   - [ ] Grecia :greece:
@@ -41,8 +42,8 @@ Proyecto personal en el que se mostrarán todos los datos relativos a la 64ª ed
   - [ ] Países Bajos :netherlands:
   - [ ] Polonia :poland:
   - [ ] Portugal :portugal:
-  - [ ] República Checa
-  - [ ] Rusia 
+  - [ ] República Checa :czech_republic:
+  - [ ] Rusia :ru:
   - [ ] Rumania :romania:
   - [ ] San Marino :san_marino:
   - [ ] Serbia :serbia: 
