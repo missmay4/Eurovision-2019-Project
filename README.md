@@ -35,7 +35,7 @@ Aquí se va a desarrollar una pagina web, en dónde se podrá **votar** por tus 
   - [ ] Islandia :lithuania:
   - [ ] Letonia :latvia:
   - [ ] Lituania :lithuania:
-  - [ ] Macedonia (ARY) :macedonia:
+  - [ ] Macedonia :macedonia:
   - [ ] Malta :malta:
   - [ ] Moldavia :moldova:
   - [ ] Montenegro :montenegro:
