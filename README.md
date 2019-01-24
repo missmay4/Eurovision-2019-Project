@@ -1,3 +1,5 @@
+![Eurovision2018](/img/eurovision-2019-israel.png)
+
 # Porra Eurovisión 2019 :eu: :israel:
 
 Proyecto personal en el que se mostrarán todos los datos relativos a la 64ª edición de Eurovisión, celebrada en Israel. Aquí, se podrán encontrar datos relativos a los participantes de cada país, asi como votar por sus favoritos. 
@@ -50,7 +52,6 @@ Proyecto personal en el que se mostrarán todos los datos relativos a la 64ª ed
   
   #### No clasificados: 
   
-![Eurovision2018](/img/EuroSongContest2018.png)
   
   
 
