@@ -1,54 +1,59 @@
-# Porra Eurovisión 2018
-![Eurovision2018](/img/EuroSongContest2018.png)
+# Porra Eurovisión 2019 :eu: :israel:
 
-Proyecto personal en el que se mostrarán todos los datos relativos a la XLIII edición de Eurovisión, celebrada en Portugal.
-
-En el, se podrán encontrar datos relativos a los participantes de cada país, asi como votar por sus favoritos. 
+Proyecto personal en el que se mostrarán todos los datos relativos a la 64ª edición de Eurovisión, celebrada en Israel. Aquí, se podrán encontrar datos relativos a los participantes de cada país, asi como votar por sus favoritos. 
 
 ### Países participantes
-  #### Finalistas:
-  - [x] Portugal
+  #### Big Five:
+  - [x] Israel :israel:
   - [x] Reino Unido
-  - [x] España
+  - [x] España 
   - [x] Francia
   - [x] Italia
   - [x] Alemania 
-  - [x] Albania
-  - [x] Lituania
-  - [x] Estonia
-  - [x] Austria
-  - [x] Israel
-  - [x] República Checa
-  - [x] Chipre
-  - [x] Bulgaria
-  - [x] Irlanda
-  - [x] Finlandia
-  - [x] Noruega
-  - [x] Hungría
-  - [x] Suecia
-  - [x] Australia
-  - [x] Dinamarca
-  - [x] Moldavia
-  - [x] Eslovenia
-  - [x] Australia
-  - [x] Países Bajos
-  - [x] Ucrania
+  ### Paises pendientes de clasificación: 
+  - [ ] Albania :albania:
+  - [ ] Armenia :armenia:
+  - [ ] Australia :australia:
+  - [ ] Austria :austria:
+  - [ ] Azerbaiyán :azerbaijan:
+  - [ ] Bélgica :belgium:
+  - [ ] Bielorrusia :belarus:
+  - [ ] Chipre :cyprus:
+  - [ ] Croacia :croatia:
+  - [ ] Dinamarca :denmark:
+  - [ ] Eslovenia 
+  - [ ] Estonia :estonia:
+  - [ ] Finlandia :finland:
+  - [ ] Grecia :greece:
+  - [ ] Georgia :georgia:
+  - [ ] Hungría :hungary:
+  - [ ] Irlanda :ireland:
+  - [ ] Islandia :lithuania:
+  - [ ] Letonia :latvia:
+  - [ ] Lituania :lithuania:
+  - [ ] Macedonia (ARY) :macedonia:
+  - [ ] Malta :malta:
+  - [ ] Moldavia :moldova:
+  - [ ] Montenegro :montenegro:
+  - [ ] Noruega :norway: 
+  - [ ] Países Bajos :netherlands:
+  - [ ] Polonia :poland:
+  - [ ] Portugal :portugal:
+  - [ ] República Checa
+  - [ ] Rusia 
+  - [ ] Rumania :romania:
+  - [ ] San Marino :san_marino:
+  - [ ] Serbia :serbia: 
+  - [ ] Suecia :sweden:
+  - [ ] Suiza :switzerland:
+  - [ ] Ucrania :ukraine:
+  
   #### No clasificados: 
-  - [ ] Armenia
-  - [ ] Azerbaiyán
-  - [ ] Islandia
-  - [ ] Suiza
-  - [ ] Bélgica
-  - [ ] Bielorrusia
-  - [ ] Croacia
-  - [ ] Macedonia (ARY)
-  - [ ] Grecia
-  - [ ] Georgia 
-  - [ ] Letonia
-  - [ ] Malta
-  - [ ] Rusia
-  - [ ] Montenegro
-  - [ ] Polonia
-  - [ ] Rumania
-  - [ ] San Marino
-  - [ ] Serbia
+  
+![Eurovision2018](/img/EuroSongContest2018.png)
+  
+  
+
+  
+
+  
