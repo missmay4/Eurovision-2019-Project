@@ -14,49 +14,43 @@ Aquí se va a desarrollar una pagina web, en dónde se podrá **votar** por tus 
   - [x] Francia :fr:
   - [x] Italia :it:
   - [x] Alemania :de:
-  ### Países pendientes de clasificación: 
-  - [ ] Albania :albania:
-  - [ ] Armenia :armenia:
-  - [ ] Australia :australia:
-  - [ ] Austria :austria:
-  - [ ] Azerbaiyán :azerbaijan:
-  - [ ] Bélgica :belgium:
-  - [ ] Bielorrusia :belarus:
-  - [ ] Chipre :cyprus:
-  - [ ] Croacia :croatia:
-  - [ ] Dinamarca :denmark:
+  ### 1st semifinal: 
   - [ ] Eslovenia 	:slovenia:
-  - [ ] Estonia :estonia:
-  - [ ] Finlandia :finland:
-  - [ ] Grecia :greece:
-  - [ ] Georgia :georgia:
-  - [ ] Hungría :hungary:
-  - [ ] Irlanda :ireland:
-  - [ ] Islandia :lithuania:
-  - [ ] Letonia :latvia:
-  - [ ] Lituania :lithuania:
-  - [ ] Macedonia :macedonia:
-  - [ ] Malta :malta:
-  - [ ] Moldavia :moldova:
-  - [ ] Montenegro :montenegro:
-  - [ ] Noruega :norway: 
-  - [ ] Países Bajos :netherlands:
-  - [ ] Polonia :poland:
-  - [ ] Portugal :portugal:
+  - [ ] Bielorrusia :belarus:
   - [ ] República Checa :czech_republic:
-  - [ ] Rusia :ru:
-  - [ ] Rumania :romania:
-  - [ ] San Marino :san_marino:
+  - [ ] Montenegro :montenegro:
+  - [ ] Chipre :cyprus:
   - [ ] Serbia :serbia: 
-  - [ ] Suecia :sweden:
-  - [ ] Suiza :switzerland:
+  - [ ] Finlandia :finland:
+  - [ ] Polonia :poland:
+  - [ ] Hungría :hungary:
+  - [ ] Estonia :estonia:
+  - [ ] Portugal :portugal:
+  - [ ] San Marino :san_marino:
+  - [ ] Islandia :iceland:
+  - [ ] Georgia :georgia:
+  - [ ] Australia :australia:
+  - [ ] Bélgica :belgium:
   - [ ] Ucrania :ukraine:
-  
+  - [ ] Grecia :greece:
+  ### 2nd semifinal: 
+  - [ ] Suiza :switzerland:
+  - [ ] Suecia :sweden:
+  - [ ] Irlanda :ireland:
+  - [ ] Austria :austria:
+  - [ ] Moldavia :moldova:
+  - [ ] Letonia :latvia:
+  - [ ] Rumania :romania:
+  - [ ] Dinamarca :denmark:
+  - [ ] Armenia :armenia:
+  - [ ] Albania :albania:
+  - [ ] Azerbaiyán :azerbaijan:
+  - [ ] Macedonia :macedonia:
+  - [ ] Noruega :norway: 
+  - [ ] Rusia :ru:
+  - [ ] Países Bajos :netherlands:
+  - [ ] Croacia :croatia:
+  - [ ] Lituania :lithuania:
+  - [ ] Malta :malta:
   #### No clasificados: 
-  
-  
-  
-
-  
-
-  
+        Próximamente...
