@@ -1,4 +1,4 @@
-![Eurovision2018](/img/eurovision-2019-israel.png)
+![Eurovision2019](/img/eurovision-2019-israel.png)
 
 # Porra Eurovisión 2019 :eu: :israel:
 
@@ -10,47 +10,47 @@ Aquí se va a desarrollar una pagina web, en dónde se podrá **votar** por tus 
   - [x] Israel :israel:
   #### Big Five:
   - [x] Reino Unido :uk:
-  - [x] España :es:
-  - [x] Francia :fr:
+  - [x] España :es: (_La Venda - Miki Nuñez_)
+  - [x] Francia :fr: (_Roi - Bilal Hassani_)
   - [x] Italia :it:
   - [x] Alemania :de:
   ### 1st semifinal: 
   - [ ] Eslovenia 	:slovenia:
   - [ ] Bielorrusia :belarus:
-  - [ ] República Checa :czech_republic:
+  - [ ] República Checa :czech_republic: (_Friend of a Friend - Lake Malawi_)
   - [ ] Montenegro :montenegro:
-  - [ ] Chipre :cyprus:
+  - [ ] Chipre :cyprus: (_Replay - Tamta Goduadze_)
   - [ ] Serbia :serbia: 
-  - [ ] Finlandia :finland:
+  - [ ] Finlandia :finland: (_??? - Darude_)
   - [ ] Polonia :poland:
   - [ ] Hungría :hungary:
   - [ ] Estonia :estonia:
   - [ ] Portugal :portugal:
-  - [ ] San Marino :san_marino:
+  - [ ] San Marino :san_marino: (_??? - Serhat_)
   - [ ] Islandia :iceland:
   - [ ] Georgia :georgia:
   - [ ] Australia :australia:
-  - [ ] Bélgica :belgium:
+  - [ ] Bélgica :belgium: (_Wake up - Eliot Vassaillet_)
   - [ ] Ucrania :ukraine:
   - [ ] Grecia :greece:
   ### 2nd semifinal: 
   - [ ] Suiza :switzerland:
   - [ ] Suecia :sweden:
   - [ ] Irlanda :ireland:
-  - [ ] Austria :austria:
+  - [ ] Austria :austria: (_Limits - Paenda_)
   - [ ] Moldavia :moldova:
   - [ ] Letonia :latvia:
   - [ ] Rumania :romania:
   - [ ] Dinamarca :denmark:
-  - [ ] Armenia :armenia:
-  - [ ] Albania :albania:
+  - [ ] Armenia :armenia: (_??? - Srbuk_)
+  - [ ] Albania :albania: (_Ktheju tokës - Jonida Maliqi_)
   - [ ] Azerbaiyán :azerbaijan:
-  - [ ] Macedonia :macedonia:
+  - [ ] Macedonia :macedonia: (_??? - Tamara Todevska_)
   - [ ] Noruega :norway: 
   - [ ] Rusia :ru:
-  - [ ] Países Bajos :netherlands:
+  - [ ] Países Bajos :netherlands: (_??? - Duncan Laurence_)
   - [ ] Croacia :croatia:
   - [ ] Lituania :lithuania:
-  - [ ] Malta :malta:
+  - [ ] Malta :malta: (_??? - Michaela Pace_)
   #### No clasificados: 
         Próximamente...
