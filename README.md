@@ -1,6 +1,7 @@
 ![Eurovision2019](/img/eurovision-2019-israel.png)
 
 # Porra Eurovisión 2019 :eu: :israel:
+# _18/05/2019_
 
 Proyecto personal en el que se mostrarán todos los datos relativos a la 64ª edición de Eurovisión, celebrada en Israel. 
 Aquí se va a desarrollar una pagina web, en dónde se podrá **votar** por tus favoritos, así cómo encontrar datos relativos a los participantes de cada país. 
@@ -14,7 +15,7 @@ Aquí se va a desarrollar una pagina web, en dónde se podrá **votar** por tus 
   - [x] Francia :fr: (_Roi - Bilal Hassani_)
   - [x] Italia :it:
   - [x] Alemania :de:
-  ### 1st semifinal: 
+  ### 1st semifinal: (_14/05/2019_)
   - [ ] Eslovenia 	:slovenia:
   - [ ] Bielorrusia :belarus:
   - [ ] República Checa :czech_republic: (_Friend of a Friend - Lake Malawi_)
@@ -33,7 +34,7 @@ Aquí se va a desarrollar una pagina web, en dónde se podrá **votar** por tus 
   - [ ] Bélgica :belgium: (_Wake up - Eliot Vassaillet_)
   - [ ] Ucrania :ukraine:
   - [ ] Grecia :greece:
-  ### 2nd semifinal: 
+  ### 2nd semifinal: (_16/05/2019_)
   - [ ] Suiza :switzerland:
   - [ ] Suecia :sweden:
   - [ ] Irlanda :ireland:
