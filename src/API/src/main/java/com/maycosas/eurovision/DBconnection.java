@@ -1,4 +1,4 @@
-package com.eurovision.API;
+package com.maycosas.eurovision;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

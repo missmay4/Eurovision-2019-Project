@@ -1,4 +1,4 @@
-package com.eurovision.API;
+package com.maycosas.eurovision;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
