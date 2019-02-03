@@ -1,3 +1,7 @@
 \.DS_Store
 \node_modules
 EuroBulgaria.png
+src/API/target
+.classpath
+.project
+.settings
