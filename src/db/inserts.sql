@@ -9,7 +9,7 @@ insert into country (code, name) values
 	('BE', 'Belgium'),
 	('HR', 'Croatia'),
 	('CY', 'Cyprus'),
-	('CZ', 'Czechia'),
+	('CZ', 'Czech Republic'),
 	('DK', 'Denmark'),
 	('EE', 'Estonia'),
 	('FI', 'Finland'),
@@ -24,16 +24,16 @@ insert into country (code, name) values
 	('IT', 'Italy'),
 	('LV', 'Latvia'),
 	('LT', 'Lithuania'),
-	('MK', 'Macedonia, the former Yugoslav Republic of'),
+	('MK', 'Macedonia'),
 	('MT', 'Malta'),
-	('MD', 'Moldova, Republic of'),
+	('MD', 'Moldova'),
 	('ME', 'Montenegro'),
 	('NL', 'Netherlands'),
 	('NO', 'Norway'),
 	('PL', 'Poland'),
 	('PT', 'Portugal'),
 	('RO', 'Romania'),
-	('RU', 'Russian Federation'),
+	('RU', 'Russia'),
 	('SM', 'San Marino'),
 	('RS', 'Serbia'),
 	('SI', 'Slovenia'),
@@ -41,7 +41,7 @@ insert into country (code, name) values
 	('SE', 'Sweden'),
 	('CH', 'Switzerland'),
 	('UA', 'Ukraine'),
-	('GB', 'United Kingdom of Great Britain and Northern Ireland')
+	('GB', 'United Kingdom')
 
 
 -- Participants Insert 

@@ -7,7 +7,6 @@ create table country (
 	name text not null unique 
 )
 
-
 -- Participant Table
 create table participant (
 	id serial primary key,
