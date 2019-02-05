@@ -31,10 +31,6 @@ public class DBconnection {
 		
 		return connection;
 		
-		
-		
 	}
 	
-	
-
 }
