@@ -59,6 +59,13 @@ insert into participant (country_id, name, song, year) values
 insert into participant (country_id, name, song, year) values
 	((select id from country where name = 'Cyprus'), 'Tamta', 'Replay', 2019)
 	
+insert into participant (country_id, name, song, year) values
+	((select id from country where name = 'Macedonia'), 'Tamara Todevska', 'Proud', 2019)
+	((select id from country where name = 'Australia'), 'Kate Miller-Heidke', 'Zero Gravity', 2019),
+	((select id from country where name = 'Italy'), 'Mahmood', 'Soldi', 2019),
+	((select id from country where name = 'Montenegro'), 'D-Moll', 'Heaven', 2019),
+	((select id from country where name = 'United Kingdom'), 'Michael Rice', 'Bigger Than Us', 2019)
+	
 	
 -- Gala Insert
 insert into gala (type, date) values
