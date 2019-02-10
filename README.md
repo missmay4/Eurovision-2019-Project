@@ -1,4 +1,4 @@
-![Eurovision2019](/img/eurovision-2019-israel.png)
+![Eurovision2019](./img/eurovision-2019-israel.png)
 
 # Porra Eurovisión 2019 :eu: :israel:
 # Grand Final _18/05/2019_
