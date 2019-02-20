@@ -19,6 +19,12 @@ create table participant (
 	foreign key (country_id) references country(id)
 )
 
+alter table participant
+add language text
+
+ALTER TABLE table_name
+ADD column_name datatype;
+
 
 -- Gala Table
 create type gala_type as enum ('Semifinal', 'Final')
