@@ -11,13 +11,16 @@ import com.maycosas.eurovision.entities.Country;
 
 @Service
 public class CountriesService {
-	
+
 	@Autowired
 	private CountriesDao dao;
 
-	public List<Country> getAllCountries()
-			throws SQLException {
-		
+	public List<Country> getAllCountries() throws SQLException {
+
 		return dao.findAllCountries();
+	}
+
+	public Country getCountry(int country_id) throws SQLException {
+		return dao.findCountry(country_id);
 	}
 }

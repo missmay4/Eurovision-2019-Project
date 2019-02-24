@@ -8,46 +8,38 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.maycosas.eurovision.entities.Country;
+import com.maycosas.eurovision.entities.Participant;
 
 @Repository
-public class CountriesDao {
+public class ParticipantDao {
 
-	public List<Country> findAllCountries() throws SQLException {
+	@Autowired
+	private CountriesDao countriesDao;
+
+	public List<Participant> findAllCountries() throws SQLException {
 
 		try (Connection conn = getConn(); Statement query = conn.createStatement()) {
-			try (ResultSet rs = query.executeQuery("SELECT * FROM country")) {
-				List<Country> countries = new ArrayList<>();
+			try (ResultSet rs = query.executeQuery("SELECT * FROM participant")) {
+				List<Participant> participants = new ArrayList<>();
 
 				while (rs.next()) {
-					Country country = new Country();
-					country.setName(rs.getString("name"));
-					country.setCode(rs.getString("code"));
-					country.setId(rs.getInt("id"));
-					countries.add(country);
+					Participant participant = new Participant();
+					participant.setId(rs.getInt("id"));
+					participant.setCountry(countriesDao.findCountry(rs.getInt("country_id")));
+					participant.setName(rs.getString("name"));
+					participant.setSong(rs.getString("song"));
+					participant.setYear(rs.getInt("year"));
+					participant.setSong_link(rs.getString("song_link"));
+					participant.setLanguage(rs.getString("language"));
+
+					participants.add(participant);
 				}
 
-				return countries;
-
+				return participants;
 			}
-		}
-	}
-
-	public Country findCountry(int country_id) throws SQLException {
-		try (Connection conn = getConn(); Statement query = conn.createStatement()) {
-			try (ResultSet rs = query.executeQuery("SELECT * FROM country WHERE id = " + country_id)) {
-				rs.next();
-				Country country = new Country();
-				country.setId(rs.getInt("id"));
-				country.setName(rs.getString("name"));
-				country.setCode(rs.getString("code"));
-
-				return country;
-
-			}
-
 		}
 	}
 

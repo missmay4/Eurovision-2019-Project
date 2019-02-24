@@ -160,3 +160,21 @@ footer {
 footer p {
   margin: .5em;
 }
+
+
+/* Prueba tabla */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #7590DA;
+}
