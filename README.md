@@ -1,7 +1,7 @@
 # Porra Eurovisión 2019 :eu: :israel:
 
-Proyecto personal en el que se mostrarán todos los datos relativos a la 64ª edición de Eurovisión, celebrada en Israel. 
-Aquí se va a desarrollar una pagina web, en dónde se podrá **votar** por tus favoritos, así cómo encontrar datos relativos a los participantes de cada país. 
+Hola! Este es un proyecto personal, en el que se mostrarán todos los datos relativos a la 64ª edición de Eurovisión, celebrada en Israel. 
+Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad sera **votar** por tus favoritos, así cómo encontrar los datos relativos a los participantes de cada país y más... 
 
 Para acceder a los archivos en local, clona este repositorio o simplemente descarga el archivo .zip a través de Github
 
