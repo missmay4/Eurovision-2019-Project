@@ -25,7 +25,7 @@ Para acceder a los archivos en local, clona este repositorio o simplemente desca
   - [ ] Chipre :cyprus: (_Replay - Tamta Goduadze_)
   - [ ] Serbia :serbia: 
   - [ ] Finlandia :finland: (_??? - Darude_)
-  - [ ] Polonia :poland:
+  - [ ] Polonia :poland: (_??? - Tulia_)
   - [ ] Hungría :hungary: (_Az Én Apám - Joci Pápai_)
   - [ ] Estonia :estonia: (_Storm - Victor Crone_)
   - [ ] Portugal :portugal:
@@ -50,7 +50,7 @@ Para acceder a los archivos en local, clona este repositorio o simplemente desca
   - [ ] Azerbaiyán :azerbaijan:
   - [ ] Macedonia :macedonia: (_Proud - Tamara Todevska_)
   - [ ] Noruega :norway: 
-  - [ ] Rusia :ru:
+  - [ ] Rusia :ru: (_??? - Sergey Lazarev_)
   - [ ] Países Bajos :netherlands: (_??? - Duncan Laurence_)
   - [ ] Croacia :croatia: (_The Dream - Roko Blažević_)
   - [ ] Lituania :lithuania: (_Run with the lions - Jurijus_)
