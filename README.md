@@ -10,9 +10,9 @@ Para acceder a los archivos en local, clona este repositorio o simplemente desca
 
 ### Países participantes
   ### País anfitrión:   
-  - [x] Israel :israel:
+  - [x] Israel :israel: (_Home - Kobi Marimi_)
   #### Big Five:
-  - [x] Reino Unido :uk: (_Michael Rice - Bigger Than Us_)
+  - [x] Reino Unido :uk: (_Bigger Than Us - Michael Rice_)
   - [x] España :es: (_La Venda - Miki Nuñez_)
   - [x] Francia :fr: (_Roi - Bilal Hassani_)
   - [x] Italia :it: (_Soldi - Mahmood_)
