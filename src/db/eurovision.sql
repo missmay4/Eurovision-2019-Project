@@ -20,6 +20,7 @@ create table participant (
 	foreign key (country_id) references country(id)
 )
 
+
 -- Gala Table
 create type gala_type as enum ('Semifinal', 'Final')
 

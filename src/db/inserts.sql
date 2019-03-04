@@ -40,7 +40,7 @@ insert into country (code, name) values
 	('ES', 'Spain'),
 	('SE', 'Sweden'),
 	('CH', 'Switzerland'),
-	('UA', 'Ukraine'),
+	('UA', 'Ukraine'), -- Retirado en la edición de 2019
 	('GB', 'United Kingdom')
 
 
@@ -69,10 +69,32 @@ insert into participant (country_id, name, song, year, language) values
 	((select id from country where name = 'Israel'), 'Kobi Marimi', 'Home', 2019, 'English'),
 	((select id from country where name = 'Lithuania'), 'Jurijus', 'Run with the lions', 2019, 'English')
 
+insert into participant (country_id, name, song, year, language) values
+	((select id from country where name = 'Finland'), 'Darude ft. Sebastian Rejman', 'Look away', 2019, 'English'),
+	((select id from country where name = 'Georgia'), 'Oto Nemsadze', 'Sul tsin iare', 2019, 'Georgian'),
+	((select id from country where name = 'Iceland'), 'Hatari', 'Hatrið mun sigra', 2019, 'Icelandic'),
+	((select id from country where name = 'Moldova'), 'Anna Odobescu', 'Stay', 2019, 'English'),
+	((select id from country where name = 'Norway'), 'KEiiNO', 'Spirit in the Sky', 2019, 'English & Sámi'),
+	((select id from country where name = 'Portugal'), 'Conan Osíris', 'Telemóveis', 2019, 'Portuguese'),
+	((select id from country where name = 'Serbia'), 'Nevena Božović', 'Kruna', 2019, 'Serbian'),
+	((select id from country where name = 'Belgium'), 'Eliot', 'Wake up', 2019, 'English')
+	
 
 -- insert into participant (country_id, name, song, year, language) values
-	-- (4, 'PAENDA', 'Limits', 2019)
-	-- ((select id from country where name = 'Macedonia'), 'Tamara Todevska', 'Proud', 2019),
+	-- ((select id from country where name = 'Azerbaijan'), '', '', 2019, ''),
+	-- ((select id from country where name = 'Switzerland'), '', '', 2019, ''),
+	-- ((select id from country where name = 'Belarus'), '', '', 2019, ''),
+	-- ((select id from country where name = 'San Marino'), 'Serhat', '', 2019, ''),
+	-- ((select id from country where name = 'Netherlands'), 'Duncan Laurence', '', 2019, ''),
+	-- (4, 'PAENDA', 'Limits', 2019, ''), 
+	-- ((select id from country where name = 'Macedonia'), 'Tamara Todevska', 'Proud', 2019, ''),
+	-- ((select id from country where name = 'Ireland'), '', '', 2019, ''),
+	-- ((select id from country where name = 'Sweden'), '', '', 2019, ''),
+	-- ((select id from country where name = 'Poland'), 'Tulia', '', 2019, ''),
+	-- ((select id from country where name = 'Malta'), 'Michela Pace', '', 2019, ''),
+	-- ((select id from country where name = 'Rusia'), 'Sergey Lazarev', '', 2019, ''),
+	-- ((select id from country where name = 'Armenia'), 'Srbuk', '', 2019, '')
+
 	
 -- Gala Insert
 insert into gala (type, date) values
@@ -80,12 +102,12 @@ insert into gala (type, date) values
 	('Semifinal', '2019-05-16'),
 	('Final', '2019-05-18')
 	
-
 -- galaParticipant Insert 
 /* insert into galaparticipant (gala_id, participant_id) values
 	(3, 1), -- France
-	(3, 3) -- Spain 
-	(3, )
+	(3, 3), -- Spain 
+	(3, 19), -- Israel
+	(3, 16), -- Germany
+	(3, 7), -- Italy
+	(3, 9), -- UK
 	**/
-
-	
