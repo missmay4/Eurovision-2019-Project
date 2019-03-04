@@ -163,6 +163,25 @@ main img {
   margin-right: 40px;
 }
 
+.artistCountry{
+  width: 100%;
+}
+
+.artistFlag{
+  width: 20%;
+  float: left;
+}
+
+.artistTitle {
+  float: right;
+  width: 80%;
+}
+
+.card-body {
+  padding-top: 0px !important;
+}
+
+
 /* Footer */
 
 footer {
