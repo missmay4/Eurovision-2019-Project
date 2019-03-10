@@ -43,7 +43,6 @@ insert into country (code, name) values
 	('UA', 'Ukraine'), -- Retirado en la edición de 2019
 	('GB', 'United Kingdom')
 
-
 -- Participants Insert 
 insert into participant (country_id, name, song, year, song_link, language) values
 	(14, 'Bilal Hassani', 'Roi', 2019, 'https://youtu.be/Z4X4ygjcUd4', 'French & English'),
@@ -78,23 +77,25 @@ insert into participant (country_id, name, song, year, language) values
 	((select id from country where name = 'Portugal'), 'Conan Osíris', 'Telemóveis', 2019, 'Portuguese'),
 	((select id from country where name = 'Serbia'), 'Nevena Božović', 'Kruna', 2019, 'Serbian'),
 	((select id from country where name = 'Belgium'), 'Eliot', 'Wake up', 2019, 'English')
+
+insert into participant (country_id, name, song, year, language) values
+	((select id from country where name = 'Switzerland'), 'Luca Hänni', 'She got me', 2019, 'English'),
+	((select id from country where name = 'San Marino'), 'Serhat', 'Say Na Na Na', 2019, 'English'),	
+	((select id from country where name = '3'), 'Zena', 'Like it', 2019, 'English'),
+	((select id from country where name = 'Netherlands'), 'Duncan Laurence', 'Arcade', 2019, 'English')
 	
-
--- insert into participant (country_id, name, song, year, language) values
-	-- ((select id from country where name = 'Azerbaijan'), '', '', 2019, ''),
-	-- ((select id from country where name = 'Switzerland'), '', '', 2019, ''),
-	-- ((select id from country where name = 'Belarus'), '', '', 2019, ''),
-	-- ((select id from country where name = 'San Marino'), 'Serhat', '', 2019, ''),
-	-- ((select id from country where name = 'Netherlands'), 'Duncan Laurence', '', 2019, ''),
-	-- (4, 'PAENDA', 'Limits', 2019, ''), 
-	-- ((select id from country where name = 'Macedonia'), 'Tamara Todevska', 'Proud', 2019, ''),
-	-- ((select id from country where name = 'Ireland'), '', '', 2019, ''),
-	-- ((select id from country where name = 'Sweden'), '', '', 2019, ''),
-	-- ((select id from country where name = 'Poland'), 'Tulia', '', 2019, ''),
-	-- ((select id from country where name = 'Malta'), 'Michela Pace', '', 2019, ''),
-	-- ((select id from country where name = 'Rusia'), 'Sergey Lazarev', '', 2019, ''),
-	-- ((select id from country where name = 'Armenia'), 'Srbuk', '', 2019, '')
-
+insert into participant (country_id, name, song, year, language) values
+	((select id from country where name = 'Macedonia'), 'Tamara Todevska', 'Proud', 2019, ''),
+	((select id from country where name = 'Ireland'), 'Sarah McTernan', '22', 2019, 'English'),
+	((select id from country where name = 'Austria'), 'PAENDA', 'Limits', 2019, 'English'), 
+	((select id from country where name = 'Azerbaijan'), 'Chingiz', 'She is a killer', 2019, 'English'),
+	((select id from country where name = 'Armenia'), 'Srbuk', 'Walking out', 2019, 'English'),
+	((select id from country where name = 'Poland'), 'Tulia', 'Pali się', 2019, 'Polish & English')
+	
+insert into participant (country_id, name, song, year, language) values	
+	((select id from country where name = 'Russia'), 'Sergey Lazarev', 'Scream', 2019, 'English'),
+	((select id from country where name = 'Sweden'), 'John Lundvik', 'Too late for love', 2019, 'English'),
+	((select id from country where name = 'Malta'), 'Michela Pace', 'Chameleon', 2019, 'English')
 	
 -- Gala Insert
 insert into gala (type, date) values
@@ -103,11 +104,57 @@ insert into gala (type, date) values
 	('Final', '2019-05-18')
 	
 -- galaParticipant Insert 
-/* insert into galaparticipant (gala_id, participant_id) values
+insert into galaparticipant (gala_id, participant_id) values
 	(3, 1), -- France
 	(3, 3), -- Spain 
 	(3, 19), -- Israel
 	(3, 16), -- Germany
 	(3, 7), -- Italy
-	(3, 9), -- UK
-	**/
+	(3, 9) -- UK
+	
+insert into galaparticipant (gala_id, participant_id) values	
+	(1, 5), -- Cyprus
+	(1, 2), -- Checz Republique
+	(1, 21), -- Finland
+	(1, 18), -- Hungary
+	(1, 8), -- Montenegro
+	(1, 38), -- Poland
+	(1, 27), -- Serbia
+	(1, 10), -- Slovenia
+	(1, 6), -- Australia
+	(1, 28), -- Belgium
+	(1, 11), -- Estonia
+	(1, 22), -- Georgia
+	(1, 12), -- Greece
+	(1, 23), -- Iceland
+	(1, 26), -- Portugal
+	(1, 30), -- San Marino 
+	(2, 37), -- Armenia
+	(2, 35), -- Austria
+	(2, 17), -- Denmark
+	(2, 34), -- Ireland
+	(2, 13), -- Latvia
+	(2, 24), -- Moldova
+	(2, 14), -- Romania
+	(2, 43), -- Sweden
+	(2, 29), -- Switzerland
+	(2, 4), -- Albania
+	(2, 36), -- Azerbaijan
+	(2, 15), -- Croatia
+	(2, 20), -- Lithuania
+	(2, 44), -- Malta
+	(2, 32), -- Netherlands
+	(2, 33), -- Macedonia
+	(2, 25), -- Norway
+	(2, 42) -- Russia 
+	
+insert into galaparticipant (gala_id, participant_id) values	
+	(1, 31)
+		
+-- updates participant
+update participant set language = 'Italian & Arabic' where country_id = 22
+update participant set language = 'English' where country_id = 25
+update participant set song_link = 'https://youtu.be/eWEFU2c3tBI' where country_id = 38 -- Spain
+update participant set song_link = 'https://youtu.be/dw7WqoSHtgU' where country_id = 14 -- France
+update participant set song_link = 'https://youtu.be/Ho9MuPJPZ90' where country_id = 10 -- Czech Republic
+
