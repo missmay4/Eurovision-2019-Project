@@ -23,25 +23,24 @@ Para acceder a los archivos en local, clona este repositorio o simplemente desca
   - [ ] República Checa :czech_republic: (_Friend of a Friend - Lake Malawi_)
   - [ ] Montenegro :montenegro: (_Heaven - D-Moll_)
   - [ ] Chipre :cyprus: (_Replay - Tamta Goduadze_)
-  - [ ] Serbia :serbia: 
-  - [ ] Finlandia :finland: (_??? - Darude_)
+  - [ ] Serbia :serbia: (_Kruna - Nevena Božović_)
+  - [ ] Finlandia :finland: (_Look away - Darude_)
   - [ ] Polonia :poland: (_??? - Tulia_)
   - [ ] Hungría :hungary: (_Az Én Apám - Joci Pápai_)
   - [ ] Estonia :estonia: (_Storm - Victor Crone_)
-  - [ ] Portugal :portugal:
+  - [ ] Portugal :portugal: (_Telemóveis - Conan Osíris_)
   - [ ] San Marino :san_marino: (_??? - Serhat_)
-  - [ ] Islandia :iceland:
-  - [ ] Georgia :georgia:
+  - [ ] Islandia :iceland: (_Hatrið mun sigra - Hatari_)
+  - [ ] Georgia :georgia: (_Sul tsin iare - Oto Nemsadze_)
   - [ ] Australia :australia: (_Zero Gravity - Kate Miller-Heidke_)
-  - [ ] Bélgica :belgium: (_Eliot Vassaillet - Wake up_)
-  - [ ] Ucrania :ukraine:
+  - [ ] Bélgica :belgium: (_Eliot - Wake up_)
   - [ ] Grecia :greece: (_Better Love - Katerine Duska_)
   ### 2nd semifinal: (_16/05/2019_)
   - [ ] Suiza :switzerland:
   - [ ] Suecia :sweden:
   - [ ] Irlanda :ireland:
   - [ ] Austria :austria: (_Limits - Paenda_)
-  - [ ] Moldavia :moldova:
+  - [ ] Moldavia :moldova: (_Stay - Anna Odobescu_)
   - [ ] Letonia :latvia: (_That Night - Carousel_)
   - [ ] Rumania :romania: (_On a Sunday - Esther Peony_)
   - [ ] Dinamarca :denmark: (_ Love is forever - Leonora_)
@@ -49,11 +48,15 @@ Para acceder a los archivos en local, clona este repositorio o simplemente desca
   - [ ] Albania :albania: (_Ktheju tokës - Jonida Maliqi_)
   - [ ] Azerbaiyán :azerbaijan:
   - [ ] Macedonia :macedonia: (_Proud - Tamara Todevska_)
-  - [ ] Noruega :norway: 
+  - [ ] Noruega :norway: (_Spirit in the sky - KEiiNO_)
   - [ ] Rusia :ru: (_??? - Sergey Lazarev_)
   - [ ] Países Bajos :netherlands: (_??? - Duncan Laurence_)
   - [ ] Croacia :croatia: (_The Dream - Roko Blažević_)
   - [ ] Lituania :lithuania: (_Run with the lions - Jurijus_)
   - [ ] Malta :malta: (_??? - Michaela Pace_)
+  
+ ### Retirados: 
+  - [ ] Ucrania :ukraine: Debido a cierta controversia, Ucrania se ha retirado de la participación en esta edición de 2019, reservando su puesto para la edición de 2020. 
+  
   #### No clasificados: 
         Próximamente...
