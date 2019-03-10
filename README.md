@@ -43,7 +43,7 @@ Para acceder a los archivos en local, clona este repositorio o simplemente desca
   - [ ] Moldavia :moldova: (_Stay - Anna Odobescu_)
   - [ ] Letonia :latvia: (_That Night - Carousel_)
   - [ ] Rumania :romania: (_On a Sunday - Esther Peony_)
-  - [ ] Dinamarca :denmark: (_ Love is forever - Leonora_)
+  - [ ] Dinamarca :denmark: (_Love is forever - Leonora_)
   - [ ] Armenia :armenia: (_Walking Out - Srbuk_)
   - [ ] Albania :albania: (_Ktheju tokës - Jonida Maliqi_)
   - [ ] Azerbaiyán :azerbaijan: (_Truth - Chinguiz_)
