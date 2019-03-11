@@ -53,7 +53,7 @@ Para acceder a los archivos en local, clona este repositorio o simplemente desca
   - [ ] Países Bajos :netherlands: (_Arcade - Duncan Laurence_)
   - [ ] Croacia :croatia: (_The Dream - Roko Blažević_)
   - [ ] Lituania :lithuania: (_Run with the lions - Jurijus_)
-  - [ ] Malta :malta: (_Chameleon - Michaela Pace_)
+  - [ ] Malta :malta: (_Chameleon - Michela Pace_)
   
  ### Retirados: 
   - [ ] Ucrania :ukraine: Debido a cierta controversia, Ucrania se ha retirado de la participación en esta edición de 2019, reservando su puesto para la edición de 2020. 
