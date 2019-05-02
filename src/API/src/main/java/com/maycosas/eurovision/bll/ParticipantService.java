@@ -17,7 +17,7 @@ public class ParticipantService {
 
 	public List<Participant> getAllParticipants() throws SQLException {
 
-		return dao.findAllCountries();
+		return dao.findAllParticipant();
 	}
 
 }

@@ -6,42 +6,40 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import com.maycosas.eurovision.entities.Gala;
 
-import com.maycosas.eurovision.entities.Participant;
 
 @Repository
-public class ParticipantDao {
-
+public class GalaDao {
 	@Autowired
-	private CountryDao countriesDao;
-
-	public List<Participant> findAllParticipant() throws SQLException {
+	private GalaParticipantDao participantDao;
+	
+	public ArrayList<Gala> findAll() throws SQLException {
 
 		try (Connection conn = getConn(); Statement query = conn.createStatement()) {
-			try (ResultSet rs = query.executeQuery("SELECT * FROM participant")) {
-				List<Participant> participants = new ArrayList<>();
+			try (ResultSet rs = query.executeQuery("SELECT * FROM gala")) {
+				ArrayList<Gala> galas = new ArrayList<>();
 
 				while (rs.next()) {
-					Participant participant = new Participant();
-					participant.setId(rs.getInt("id"));
-					participant.setCountry(countriesDao.findCountry(rs.getInt("country_id")));
-					participant.setName(rs.getString("name"));
-					participant.setSong(rs.getString("song"));
-					participant.setYear(rs.getInt("year"));
-					participant.setSong_link(rs.getString("song_link"));
-					participant.setLanguage(rs.getString("language"));
+					Gala gala = new Gala();
+					gala.setId(rs.getInt("id"));
+					gala.setType(Gala.Type.valueOf(rs.getString("type")));
+					gala.setDate(rs.getDate("date").toLocalDate());
+					gala.setParticipants(participantDao.findByGala(gala.getId()));
 
-					participants.add(participant);
+					galas.add(gala);
 				}
 
-				return participants;
+				return galas;
+
 			}
 		}
 	}
+	
+	
 
 	public Connection getConn() {
 		try {
@@ -63,4 +61,5 @@ public class ParticipantDao {
 		return connection;
 
 	}
+	
 }

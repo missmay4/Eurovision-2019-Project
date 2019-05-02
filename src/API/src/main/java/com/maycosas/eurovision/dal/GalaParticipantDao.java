@@ -2,45 +2,42 @@ package com.maycosas.eurovision.dal;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-
-import com.maycosas.eurovision.entities.Participant;
+import com.maycosas.eurovision.entities.GalaParticipant;
 
 @Repository
-public class ParticipantDao {
+public class GalaParticipantDao {
 
-	@Autowired
-	private CountryDao countriesDao;
+	public ArrayList<GalaParticipant> findByGala(int gala_id) throws SQLException {
+		ArrayList<GalaParticipant> participants = new ArrayList<GalaParticipant>();
+		String sql = "SELECT * FROM galaparticipant WHERE gala_id = ?";
 
-	public List<Participant> findAllParticipant() throws SQLException {
+		try (Connection conn = getConn();
+				PreparedStatement query = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
 
-		try (Connection conn = getConn(); Statement query = conn.createStatement()) {
-			try (ResultSet rs = query.executeQuery("SELECT * FROM participant")) {
-				List<Participant> participants = new ArrayList<>();
+			query.setInt(1, gala_id);
 
+			try (ResultSet rs = query.executeQuery()) {
 				while (rs.next()) {
-					Participant participant = new Participant();
+					
+					GalaParticipant participant = new GalaParticipant();
 					participant.setId(rs.getInt("id"));
-					participant.setCountry(countriesDao.findCountry(rs.getInt("country_id")));
-					participant.setName(rs.getString("name"));
-					participant.setSong(rs.getString("song"));
-					participant.setYear(rs.getInt("year"));
-					participant.setSong_link(rs.getString("song_link"));
-					participant.setLanguage(rs.getString("language"));
+					participant.setGala_id(rs.getInt("gala_id"));
+					participant.setParticipant_id(rs.getInt("participant_id"));
+					participant.setPoints(rs.getInt("points"));
 
 					participants.add(participant);
 				}
-
-				return participants;
 			}
 		}
+		
+		return participants;
 	}
 
 	public Connection getConn() {
@@ -63,4 +60,5 @@ public class ParticipantDao {
 		return connection;
 
 	}
+
 }

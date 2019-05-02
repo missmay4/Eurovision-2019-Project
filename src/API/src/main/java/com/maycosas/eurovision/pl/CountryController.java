@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.maycosas.eurovision.bll.CountriesService;
+import com.maycosas.eurovision.bll.CountryService;
 
 @RestController
 public class CountryController {
 
 	@Autowired
-	private CountriesService countriesService;
+	private CountryService countriesService;
 
 	@GetMapping("/country/")
 	public Object getCountries() {

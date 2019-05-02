@@ -6,14 +6,14 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.maycosas.eurovision.dal.CountriesDao;
+import com.maycosas.eurovision.dal.CountryDao;
 import com.maycosas.eurovision.entities.Country;
 
 @Service
-public class CountriesService {
+public class CountryService {
 
 	@Autowired
-	private CountriesDao dao;
+	private CountryDao dao;
 
 	public List<Country> getAllCountries() throws SQLException {
 

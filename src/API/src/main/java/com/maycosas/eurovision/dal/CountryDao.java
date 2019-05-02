@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
 import com.maycosas.eurovision.entities.Country;
 
 @Repository
-public class CountriesDao {
+public class CountryDao {
 
 	public List<Country> findAllCountries() throws SQLException {
 
