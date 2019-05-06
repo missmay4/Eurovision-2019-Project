@@ -158,3 +158,7 @@ update participant set song_link = 'https://youtu.be/eWEFU2c3tBI' where country_
 update participant set song_link = 'https://youtu.be/dw7WqoSHtgU' where country_id = 14 -- France
 update participant set song_link = 'https://youtu.be/Ho9MuPJPZ90' where country_id = 10 -- Czech Republic
 
+insert into user_ (name) values ('prueba')
+
+insert into vote (participant_id, user_id, item_order) values (1, 1, 0), (2, 1, 1), (3, 1, 2)
+

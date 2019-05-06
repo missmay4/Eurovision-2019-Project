@@ -44,6 +44,8 @@ create table galaParticipant (
 	
 )
 
+alter table galaParticipant add column performanceOrder int 
+
 
 -- User table 
 create table user_ (
@@ -52,6 +54,7 @@ create table user_ (
 
 )
 
+alter table user_ add constraint unique_name unique (name)
 
 -- Vote table
 create table vote (
@@ -59,9 +62,12 @@ create table vote (
 	participant_id serial not null,
 	user_id serial not null,
 	item_order int, 
+	gala_id int, 
+	date_vote timestamp,
 	
 	foreign key (participant_id) references participant(id),
-	foreign key (user_id) references user_(id)
+	foreign key (user_id) references user_(id), 
+	foreign key (gala_id) references gala(id)
 	
 )
 
