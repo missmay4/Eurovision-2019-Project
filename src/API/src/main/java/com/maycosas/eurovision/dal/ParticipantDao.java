@@ -18,6 +18,8 @@ public class ParticipantDao {
 
 	@Autowired
 	private CountryDao countriesDao;
+	@Autowired 
+	private GalaParticipantDao galaParticipantDao;
 
 	public List<Participant> findAllParticipant() throws SQLException {
 
@@ -34,6 +36,7 @@ public class ParticipantDao {
 					participant.setYear(rs.getInt("year"));
 					participant.setSong_link(rs.getString("song_link"));
 					participant.setLanguage(rs.getString("language"));
+					participant.setGala(galaParticipantDao.findByParticipant(participant.getId()));
 
 					participants.add(participant);
 				}

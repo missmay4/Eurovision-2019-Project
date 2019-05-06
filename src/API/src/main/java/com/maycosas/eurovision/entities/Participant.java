@@ -9,6 +9,15 @@ public class Participant {
 	private String song;
 	private String language;
 	private String song_link;
+	private GalaParticipant gala; 
+
+	public GalaParticipant getGala() {
+		return gala;
+	}
+
+	public void setGala(GalaParticipant gala) {
+		this.gala = gala;
+	}
 
 	public Country getCountry() {
 		return country;

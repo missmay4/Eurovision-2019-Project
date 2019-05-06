@@ -25,7 +25,7 @@ public class GalaParticipantDao {
 
 			try (ResultSet rs = query.executeQuery()) {
 				while (rs.next()) {
-					
+
 					GalaParticipant participant = new GalaParticipant();
 					participant.setId(rs.getInt("id"));
 					participant.setGala_id(rs.getInt("gala_id"));
@@ -36,8 +36,30 @@ public class GalaParticipantDao {
 				}
 			}
 		}
-		
+
 		return participants;
+	}
+
+	public GalaParticipant findByParticipant(int participant_id) throws SQLException {
+		String sql = "SELECT * FROM galaparticipant WHERE participant_id = ?";
+		try (Connection conn = getConn();
+				PreparedStatement query = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
+			query.setInt(1, participant_id);
+			
+			try (ResultSet rs = query.executeQuery()){
+				if (rs.next()) {
+					GalaParticipant participant = new GalaParticipant();
+					participant.setId(rs.getInt("id"));
+					participant.setGala_id(rs.getInt("gala_id"));
+					participant.setParticipant_id(rs.getInt("participant_id"));
+					participant.setPoints(rs.getInt("points"));
+					
+					return participant;
+				}
+			}
+		}
+		return null;
+
 	}
 
 	public Connection getConn() {
