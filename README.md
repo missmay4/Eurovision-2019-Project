@@ -10,7 +10,7 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
 ## Grand Final _18/05/2019_
 
 ### Participants
-  ### Host Country:   
+  #### Host Country:   
   - [x] Israel :israel: (_Home - Kobi Marimi_)
   #### Big Five:
   - [x] Great Britain :uk: (_Bigger Than Us - Michael Rice_)
@@ -18,7 +18,7 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
   - [x] France :fr: (_Roi - Bilal Hassani_)
   - [x] Italiy :it: (_Soldi - Mahmood_)
   - [x] Germany :de: (_Sister - S!sters_)
-  ### 1st Semifinal: (_14/05/2019_)
+  #### 1st Semifinal: (_14/05/2019_)
   - [ ] Slovenia :slovenia: (_Sebi - Zala Kralj & Gašper Šantl_)
   - [ ] Belarus :belarus: (_Like it - ZENA_)
   - [ ] Czech Republic :czech_republic: (_Friend of a Friend - Lake Malawi_)
@@ -36,7 +36,7 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
   - [ ] Australia :australia: (_Zero Gravity - Kate Miller-Heidke_)
   - [ ] Belgium :belgium: (_Eliot - Wake up_)
   - [ ] Greece :greece: (_Better Love - Katerine Duska_)
-  ### 2nd Semifinal: (_16/05/2019_)
+  #### 2nd Semifinal: (_16/05/2019_)
   - [ ] Switzerland :switzerland: (_She got me - Luca Hänni_)
   - [ ] Sweden :sweden: (_Too Late For Love - John Lundvik_)
   - [ ] Ireland :ireland: (_22 - Sarah McTernan_)
