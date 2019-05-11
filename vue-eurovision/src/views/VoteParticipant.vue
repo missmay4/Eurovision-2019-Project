@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <CountryVote/>
+    <ListCountryVotes/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import CountryVote from '@/components/CountryVote.vue'
+import ListCountryVotes from '@/components/listCountryVotes.vue'
 
 export default {
   name: 'participants',
   components: {
-    CountryVote
+    ListCountryVotes
   }
 }
 </script>
