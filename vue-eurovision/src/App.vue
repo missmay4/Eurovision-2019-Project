@@ -8,10 +8,10 @@
             <router-link to="/singers">Participantes</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/votes">Votaciones</router-link>
+            <router-link to="/listCountryVote">Votaciones</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/listVotes">Tus votos</router-link>
+            <router-link to="/">Tus votos</router-link>
           </li>
         </ul>
       </div>

@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Participants from './views/Participants.vue'
 import Votes from './views/Votes.vue'
-import ListVotes from './views/listVotes.vue'
+import VoteParticipant from './views/VoteParticipant.vue'
 
 Vue.use(Router)
 
@@ -21,14 +21,9 @@ export default new Router({
       component: Participants
     },
     {
-      path: '/votes',
-      name: 'votes',
-      component: Votes
-    },
-    {
-      path: '/listVotes',
-      name: 'listVotes',
-      component: ListVotes
+      path: '/listCountryVote',
+      name: 'listCountryVote',
+      component: VoteParticipant
     },
     {
       path: '/about',
