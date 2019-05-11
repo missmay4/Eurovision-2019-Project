@@ -53,6 +53,7 @@ public class GalaParticipantDao {
 					participant.setGala_id(rs.getInt("gala_id"));
 					participant.setParticipant_id(rs.getInt("participant_id"));
 					participant.setPoints(rs.getInt("points"));
+					participant.setPerformanceOrder(rs.getInt("performanceorder"));
 					
 					return participant;
 				}
