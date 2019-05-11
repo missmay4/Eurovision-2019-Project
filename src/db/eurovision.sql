@@ -44,8 +44,7 @@ create table galaParticipant (
 	
 )
 
-alter table galaParticipant add column performanceOrder int 
-
+alter table galaParticipant add column performanceOrder int
 
 -- User table 
 create table user_ (
