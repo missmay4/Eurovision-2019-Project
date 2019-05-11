@@ -1,5 +1,4 @@
 <template>
-
   <div class="col-lg-3 col-md-4 col-sm-6">
     <div class="card" >
       <img :src="loadImage('EuroSingers/' + countryCode + '.jpg')" class="card-img-top" :alt="name">
@@ -17,7 +16,6 @@
       </div>
     </div>
   </div>
-
 </template>
 
 <script>
@@ -37,7 +35,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .cardFont {
   font-size: 13px;

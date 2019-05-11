@@ -7,13 +7,13 @@
           <a class="nav-link" href="#participants" @click="gala=undefined">Ver todos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#first-semi-final" @click="gala=1">Primera Semifinal</a>
+          <a class="nav-link" href="#first-semi-final" @click="gala=1">1ª Semifinal</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#second-semi-final" @click="gala=2">Segunda Semifinal</a>
+          <a class="nav-link" href="#second-semi-final" @click="gala=2">2ª Semifinal</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#grand-final" @click="gala=3">Final</a>
+          <a class="nav-link" href="#grand-final" @click="gala=3">Gran Final</a>
         </li>
       </ul>
     </div>
@@ -32,7 +32,6 @@
 <script>
 import Participant from '@/components/Participant.vue'
 
-
 export default {
   name: 'listParticipants',
   data() {
@@ -48,7 +47,7 @@ export default {
       this.participants = data;
     });
     let currentRoute = this.$router.currentRoute.hash;
-    
+
     if (currentRoute === '#first-semi-final'){
       this.gala = 1;
     } else if (currentRoute === '#second-semi-final' ){
@@ -64,6 +63,5 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 </style>
