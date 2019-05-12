@@ -7,58 +7,73 @@
         </div>
         <div class="modal-body">
           <!-- Votos  -->
-          <imageCountry  v-for="participant in participants.filter((participant) => { return selectedParticipants.indexOf(participant.id) !== -1})"
-                         :participant="participant"
-          />
+          <imageCountry
+            v-for="participant in participants.filter((participant) => { return selectedParticipants.indexOf(participant.id) !== -1})"
+            :participant="participant" />
           <form action="">
             <div class="form-group row">
               <div class="col-sm-12">
-                <input type="name" class="form-control" id="" placeholder="Tu nombre" v-model="name">
+                <input type="name" v-bind:class="{'form-control': true, 'is-invalid': !valido}" id="" placeholder="Tu nombre" v-model="name">
+                <div class="invalid-feedback">
+                  El usuario ya existe
+                </div>
               </div>
             </div>
           </form>
         </div>
         <div class="modal-footer">
           <button @click="vote()" class="btn btn-light">A votar!</button>
-          </div>
         </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
+  import imageCountry from '@/components/imageCountry.vue'
 
-import imageCountry from '@/components/imageCountry.vue'
-
-export default {
-  name: 'VoteModal',
-  props: {
+  export default {
+    name: 'VoteModal',
+    props: {
       selectedParticipants: Array,
       participants: Array
     },
     data() {
-    return {
-      name: ''
-    }
-  },
-  methods: {
-    vote: function() {
-      const config = { headers: { 'Content-Type': 'multipart/form-data' } };
-      axios.post('http://localhost:8080/user/', '"name"="asdasdasd"', config).then(response => {
-        axios.post('http://localhost:8080/user/'+response.id+'/vote', {
-          vote1: selectedParticipants[0], 
-          vote2: selectedParticipants[1],
-          vote3: selectedParticipants[2],
-          gala: [1]
-        }) 
-     
-    });
-    }
-  },
-  components: {
-    imageCountry
-  },
-}
+      return {
+        name: '', 
+        valido: true
+      }
+    },
+    methods: {
+      vote: function () {
+        const config = {
+          headers: {
+            'Content-Type': 'multipart/form-data'
+          }
+        };
+        let form_user = new FormData();
+        form_user.append("name", this.name);
+
+        let form_votes = new FormData();
+        form_votes.append("vote1", this.selectedParticipants[0]);
+        form_votes.append("vote2", this.selectedParticipants[1]);
+        form_votes.append("vote3", this.selectedParticipants[2]);
+        form_votes.append("gala", 1);
+
+        axios.post('http://localhost:8080/user/', form_user).then(response => {
+          axios.post('http://localhost:8080/user/' + response.data.id + '/vote', form_votes).then(response => {
+             this.valido = true;  
+          });
+        }).catch(error => {
+          // handle error
+          this.valido = false;
+        });
+      }
+    },
+    components: {
+      imageCountry
+    },
+  }
 </script>
 
 <style scoped>

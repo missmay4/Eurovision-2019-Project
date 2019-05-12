@@ -7,11 +7,11 @@
           <li class="nav-item">
             <router-link to="/singers">Participantes</router-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <router-link to="/listCountryVote">Votaciones</router-link>
-          </li>
+          </li> -->
           <li class="nav-item">
-            <router-link to="/">Tus votos</router-link>
+            <router-link to="/votes">Votos</router-link>
           </li>
         </ul>
       </div>

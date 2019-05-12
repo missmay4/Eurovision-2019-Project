@@ -26,6 +26,11 @@ export default new Router({
       component: VoteParticipant
     },
     {
+      path: '/votes',
+      name: 'votes',
+      component: Votes
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
