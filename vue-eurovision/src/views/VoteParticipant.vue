@@ -6,12 +6,12 @@
 
 <script>
 // @ is an alias to /src
-import ListCountryVotes from '@/components/listCountryVotes.vue'
+import ListCountryVotes from "@/components/listCountryVotes.vue";
 
 export default {
-  name: 'participants',
+  name: "participants",
   components: {
     ListCountryVotes
   }
-}
+};
 </script>

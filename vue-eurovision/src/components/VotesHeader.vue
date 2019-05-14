@@ -12,11 +12,11 @@
 
 <script>
 export default {
-  name: 'VotesHeader',
+  name: "VotesHeader",
   props: {
     gala: String
-  },
-}
+  }
+};
 </script>
 
 <style lang="css" scoped>

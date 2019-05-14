@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <header class="navbar">
-      <router-link class="navbar-brand" to="/"><img src="./assets/EuroFlags/EuroIL.png" width="30" height="30" alt=""> Eurovision 2019</router-link>
+      <router-link class="navbar-brand" to="/">
+        <img src="./assets/EuroFlags/EuroIL.png" width="30" height="30" alt> Eurovision 2019
+      </router-link>
       <div class="navbar-nav-scroll">
         <ul class="navbar-nav bd-navbar-nav flex-row">
           <li class="nav-item">
@@ -9,7 +11,7 @@
           </li>
           <!-- <li class="nav-item">
             <router-link to="/listCountryVote">Votaciones</router-link>
-          </li> -->
+          </li>-->
           <li class="nav-item">
             <router-link to="/votes">Votos</router-link>
           </li>
@@ -17,13 +19,21 @@
       </div>
       <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
         <li class="nav-item">
-          <a href="https://github.com/missmay4/Eurovision-2019-Project"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+          <a href="https://github.com/missmay4/Eurovision-2019-Project">
+            <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+          </a>
         </li>
         <li class="nav-item">
-          <a href="https://open.spotify.com/user/deathscythe4/playlist/6ilzr63uzIxOOwcCKdlsTz?si=zBoPp4BjT6OaW_O3gwHWDQ"><i class="fa fa-spotify fa-lg" aria-hidden="true"></i></a>
+          <a
+            href="https://open.spotify.com/user/deathscythe4/playlist/6ilzr63uzIxOOwcCKdlsTz?si=zBoPp4BjT6OaW_O3gwHWDQ"
+          >
+            <i class="fa fa-spotify fa-lg" aria-hidden="true"></i>
+          </a>
         </li>
         <li class="nav-item">
-          <a href="https://twitter.com/deathscythe_4"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/deathscythe_4">
+            <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+          </a>
         </li>
       </ul>
     </header>
@@ -32,10 +42,14 @@
     </div>
 
     <footer>
+      <p>© 2019, @missmay4 & @aorcajo</p>
       <p>
-        © 2019, @missmay4 & @aorcajo
+        Images & Data obtained in
+        <a
+          href="https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2019"
+        >Wikipedia</a>,
+        <a href="https://eurovision.tv/">Eurovision.tv</a>
       </p>
-      <p>Images & Data obtained in <a href="https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2019">Wikipedia</a>, <a href="https://eurovision.tv/">Eurovision.tv</a></p>
     </footer>
   </div>
 </template>
@@ -43,10 +57,10 @@
 
 
 <style>
-
-:root { /* Se puede hacer en el body del html tambien. Nivel global */
+:root {
+  /* Se puede hacer en el body del html tambien. Nivel global */
   --c-accent: #273c75;
-  --c-background: #ecf0f1;
+  --c-background: #f5f6fa;
   --c-medium: #192a56;
   --c-text: #2f3542;
   --spacer: 15px;
@@ -61,10 +75,10 @@ body {
   margin: 0;
 
   margin-right: auto;
-  margin-left:  auto;
+  margin-left: auto;
   /* max-width: 960px; */
   padding-right: 10px;
-  padding-left:  10px;
+  padding-left: 10px;
 }
 
 *: focus {
@@ -75,7 +89,8 @@ a {
   color: var(--c-accent) !important;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   font-weight: bold;
 }
 
@@ -127,17 +142,17 @@ main img {
   margin-left: 3%;
 }
 
-.margin{
+.margin {
   margin-left: 5%;
   margin-right: 5%;
-
 }
 
 /* main div:hover img, main div:focus img {
   filter: grayscale(.3) blur(2px) brightness(.5);
 } */
 
-@supports (display:grid) { /* Media query */
+@supports (display: grid) {
+  /* Media query */
   main {
     display: grid;
     grid-template-columns: repeat(auto-fill, 250px) minmax(200px, 1fr); /* repeat calcula las columnas que puede poner. Minmax define el tamaño de una columna */
@@ -156,10 +171,10 @@ main img {
   main div {
     display: grid;
     align-items: end;
-
   }
 
-  main div img, main div span {
+  main div img,
+  main div span {
     grid-row: 1;
     grid-column: 1;
   }
@@ -168,12 +183,13 @@ main img {
     display: none;
     z-index: 1;
   }
-  main div:hover span, main div:focus span {
+  main div:hover span,
+  main div:focus span {
     display: inline;
   }
 }
 
-.flags{
+.flags {
   height: 40px;
   width: 40px;
   margin-top: 10px;
@@ -183,20 +199,20 @@ main img {
   margin-top: 10px;
 }
 
-.centrar{
+.centrar {
   text-align: center;
   margin-top: 10px;
 }
 
-.espaciocheck{
+.espaciocheck {
   margin-right: 40px;
 }
 
-.artistCountry{
+.artistCountry {
   width: 100%;
 }
 
-.artistFlag{
+.artistFlag {
   width: 20%;
   float: left;
 }
@@ -210,11 +226,10 @@ main img {
   padding-top: 0px !important;
 }
 
-
 /* Footer */
 
 footer {
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin-top: var(--spacer);
   display: flex;
   flex-direction: column;
@@ -222,9 +237,8 @@ footer {
 }
 
 footer p {
-  margin: .5em;
+  margin: 0.5em;
 }
-
 
 /* Prueba tabla */
 table {
@@ -232,14 +246,15 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
-
-td, th {
+/* 
+td,
+th {
   border: 1px solid #000000;
   text-align: left;
   padding: 8px;
 }
 
 th {
-  background-color: #7590DA;
-}
+  background-color: #7590da;
+} */
 </style>

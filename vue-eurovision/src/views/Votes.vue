@@ -1,15 +1,15 @@
 <template>
-  <tablaVotos />
+  <tablaVotos/>
 </template>
 
 <script>
 // @ is an alias to /src
-import tablaVotos from '@/components/tablaVotos.vue'
+import tablaVotos from "@/components/tablaVotos.vue";
 
 export default {
-  name: 'Votes',
+  name: "Votes",
   components: {
     tablaVotos
   }
-}
+};
 </script>
