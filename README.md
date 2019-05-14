@@ -50,10 +50,10 @@ Aquí se va a desarrollar una appliación web, dónde la mayor funcionalidad ser
   - [ ] Malta :malta: (_Chameleon - Michela Pace_)
   
   #### Not Qualified: 
-  - Montenegro :montenegro: (_Heaven - D-Moll_)
-  - Finland :finland: (_Look away - Darude_)
-  - Poland :poland: (_Pali się - Tulia_)
-  - Hungary :hungary: (_Az Én Apám - Joci Pápai_)
-  - Portugal :portugal: (_Telemóveis - Conan Osíris_)
-  - Georgia :georgia: (_Sul tsin iare - Oto Nemsadze_)
-  - Belgium :belgium: (_Eliot - Wake up_)
+  > * Montenegro :montenegro: (_Heaven - D-Moll_)
+  > * Finland :finland: (_Look away - Darude_)
+  > * Poland :poland: (_Pali się - Tulia_)
+  > * Hungary :hungary: (_Az Én Apám - Joci Pápai_)
+  > * Portugal :portugal: (_Telemóveis - Conan Osíris_)
+  > * Georgia :georgia: (_Sul tsin iare - Oto Nemsadze_)
+  > * Belgium :belgium: (_Eliot - Wake up_)
