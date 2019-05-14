@@ -9,7 +9,16 @@ public class Vote {
 	private int item_order;
 	private int gala_id;
 	private Timestamp date;
+	Participant participant;
 	
+	public Participant getParticipant() {
+		return participant;
+	}
+
+	public void setParticipant(Participant participant) {
+		this.participant = participant;
+	}
+
 	public int getGala_id() {
 		return gala_id;
 	}

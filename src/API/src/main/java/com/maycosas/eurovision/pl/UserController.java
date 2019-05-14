@@ -27,6 +27,7 @@ public class UserController {
 	@Autowired
 	private VoteService voteService;
 
+    @CrossOrigin(origins = "http://localhost:8000")
 	@GetMapping("/user/")
 	public Object getUsers() {
 		try {

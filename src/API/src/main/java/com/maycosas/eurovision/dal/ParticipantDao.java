@@ -18,7 +18,7 @@ public class ParticipantDao {
 
 	@Autowired
 	private CountryDao countriesDao;
-	@Autowired 
+	@Autowired
 	private GalaParticipantDao galaParticipantDao;
 
 	public List<Participant> findAllParticipant() throws SQLException {
@@ -42,6 +42,27 @@ public class ParticipantDao {
 				}
 
 				return participants;
+			}
+		}
+	}
+
+	public Participant findParticipant(int id) throws SQLException {
+
+		try (Connection conn = getConn(); Statement query = conn.createStatement()) {
+			try (ResultSet rs = query.executeQuery("SELECT * FROM participant WHERE id = " + id)) {
+				
+				rs.next();
+				Participant participant = new Participant();
+				participant.setId(rs.getInt("id"));
+				participant.setCountry(countriesDao.findCountry(rs.getInt("country_id")));
+				participant.setName(rs.getString("name"));
+				participant.setSong(rs.getString("song"));
+				participant.setYear(rs.getInt("year"));
+				participant.setSong_link(rs.getString("song_link"));
+				participant.setLanguage(rs.getString("language"));
+				participant.setGala(galaParticipantDao.findByParticipant(participant.getId()));
+
+				return participant;
 			}
 		}
 	}

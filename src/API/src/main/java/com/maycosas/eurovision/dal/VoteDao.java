@@ -9,12 +9,16 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.maycosas.eurovision.entities.Vote;
 
 @Repository
 public class VoteDao {
+	
+	@Autowired
+	private ParticipantDao partDao;
 
 	public List<Vote> findAllVotes() throws SQLException {
 		try (Connection conn = getConn(); Statement query = conn.createStatement()) {
@@ -29,6 +33,7 @@ public class VoteDao {
 					vote.setItem_order(rs.getInt("item_order"));
 					vote.setGala_id(rs.getInt("gala_id"));
 					vote.setDate(rs.getTimestamp("date_vote"));
+					vote.setParticipant(partDao.findParticipant(rs.getInt("participant_id")));
 
 					votes.add(vote);
 				}
@@ -54,6 +59,7 @@ public class VoteDao {
 					vote.setItem_order(rs.getInt("item_order"));
 					vote.setGala_id(rs.getInt("gala_id"));
 					vote.setDate(rs.getTimestamp("date_vote"));
+					vote.setParticipant(partDao.findParticipant(rs.getInt("participant_id")));
 
 					votes.add(vote);
 				}
