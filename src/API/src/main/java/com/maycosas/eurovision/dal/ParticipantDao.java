@@ -11,6 +11,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import com.maycosas.eurovision.entities.GalaParticipant;
 import com.maycosas.eurovision.entities.Participant;
 
 @Repository
@@ -28,17 +29,22 @@ public class ParticipantDao {
 				List<Participant> participants = new ArrayList<>();
 
 				while (rs.next()) {
-					Participant participant = new Participant();
-					participant.setId(rs.getInt("id"));
-					participant.setCountry(countriesDao.findCountry(rs.getInt("country_id")));
-					participant.setName(rs.getString("name"));
-					participant.setSong(rs.getString("song"));
-					participant.setYear(rs.getInt("year"));
-					participant.setSong_link(rs.getString("song_link"));
-					participant.setLanguage(rs.getString("language"));
-					participant.setGala(galaParticipantDao.findByParticipant(participant.getId()));
+					for (GalaParticipant galaP : galaParticipantDao.findByParticipant(rs.getInt("id"))) {
+						Participant participant = new Participant();
+						participant.setId(rs.getInt("id"));
+						participant.setCountry(countriesDao.findCountry(rs.getInt("country_id")));
+						participant.setName(rs.getString("name"));
+						participant.setSong(rs.getString("song"));
+						participant.setYear(rs.getInt("year"));
+						participant.setSong_link(rs.getString("song_link"));
+						participant.setLanguage(rs.getString("language"));					
+						participant.setGala(galaP);
 
-					participants.add(participant);
+						participants.add(participant);
+						
+					}
+					
+	
 				}
 
 				return participants;
@@ -60,7 +66,7 @@ public class ParticipantDao {
 				participant.setYear(rs.getInt("year"));
 				participant.setSong_link(rs.getString("song_link"));
 				participant.setLanguage(rs.getString("language"));
-				participant.setGala(galaParticipantDao.findByParticipant(participant.getId()));
+				participant.setGala(galaParticipantDao.findByParticipant(participant.getId()).get(0));
 
 				return participant;
 			}

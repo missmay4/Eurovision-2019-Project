@@ -7,6 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.stereotype.Repository;
 import com.maycosas.eurovision.entities.GalaParticipant;
@@ -40,14 +41,18 @@ public class GalaParticipantDao {
 		return participants;
 	}
 
-	public GalaParticipant findByParticipant(int participant_id) throws SQLException {
+	public List<GalaParticipant> findByParticipant(int participant_id) throws SQLException {
+		
+		List<GalaParticipant> galaP = new ArrayList<GalaParticipant>();
+		
+		
 		String sql = "SELECT * FROM galaparticipant WHERE participant_id = ?";
 		try (Connection conn = getConn();
 				PreparedStatement query = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
 			query.setInt(1, participant_id);
 			
 			try (ResultSet rs = query.executeQuery()){
-				if (rs.next()) {
+				while (rs.next()) {
 					GalaParticipant participant = new GalaParticipant();
 					participant.setId(rs.getInt("id"));
 					participant.setGala_id(rs.getInt("gala_id"));
@@ -55,13 +60,14 @@ public class GalaParticipantDao {
 					participant.setPoints(rs.getInt("points"));
 					participant.setPerformanceOrder(rs.getInt("performanceorder"));
 					
-					return participant;
+					galaP.add(participant);
 				}
 			}
 		}
-		return null;
+		return galaP;
 
 	}
+	
 
 	public Connection getConn() {
 		try {
