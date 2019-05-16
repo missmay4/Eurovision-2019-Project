@@ -1,6 +1,22 @@
 <template>
-  <div class="col-md-4 col lg-4">
-    <div class="alert alert-primary" role="alert">
+  <div class="col-md-12 col lg-12">
+    <div class="jumbotron">
+      <h1 class="display-2">
+        {{name}}
+        {{date.getDate() + ' / ' + (date.getMonth() + 1)}}
+      </h1>
+      <p class="display-4 lead center">{{days}}d {{hours}}h {{minutes}}m {{seconds}}s</p>
+      <hr class="my-4">
+      <router-link :to="'/listCountryVote#' + link">
+        <a
+          class="btn btn-light btn-lg btn-block"
+          v-bind:class="{disabled: this.distance > 0}"
+          role="button"
+        >Vota!</a>
+      </router-link>
+    </div>
+
+    <!-- <div class="alert alert-primary" role="alert">
       <p>
         Cuenta atrás para la
         <b>{{name}}</b>
@@ -10,7 +26,7 @@
       <router-link :to="'/listCountryVote#' + link">
         <a class="btn btn-light" v-bind:class="{disabled: this.distance > 0}" role="button">Vota!</a>
       </router-link>
-    </div>
+    </div>-->
   </div>
 </template>
 
@@ -61,4 +77,15 @@ export default {
 </script>
 
 <style scoped>
+.center {
+  margin-left: 31%;
+}
+
+h1 {
+  color: #2b4078;
+}
+
+p {
+  color: #293e77;
+}
 </style>
