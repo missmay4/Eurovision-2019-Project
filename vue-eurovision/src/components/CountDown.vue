@@ -1,12 +1,12 @@
 <template>
-  <div class="col-md-12 col lg-12">
-    <div class="jumbotron">
-      <h1 class="display-2">
+  <div class="col-sm-12 col-md-12 col lg-12">
+    <div class="alert alert-primary" role="alert">
+      <h1 class="display-4 alert-heading">
         {{name}}
         {{date.getDate() + ' / ' + (date.getMonth() + 1)}}
       </h1>
-      <p class="display-4 lead center">{{days}}d {{hours}}h {{minutes}}m {{seconds}}s</p>
-      <hr class="my-4">
+      <h1 class="alert-heading">{{days}}d {{hours}}h {{minutes}}m {{seconds}}s</h1>
+      <hr>
       <router-link :to="'/listCountryVote#' + link">
         <a
           class="btn btn-light btn-lg btn-block"
@@ -78,7 +78,7 @@ export default {
 
 <style scoped>
 .center {
-  margin-left: 31%;
+  margin-left: 20%;
 }
 
 h1 {
