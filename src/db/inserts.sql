@@ -158,7 +158,7 @@ update participant set song_link = 'https://youtu.be/eWEFU2c3tBI' where country_
 update participant set song_link = 'https://youtu.be/dw7WqoSHtgU' where country_id = 14 -- France
 update participant set song_link = 'https://youtu.be/Ho9MuPJPZ90' where country_id = 10 -- Czech Republic
 
-insert into galaparticipant (gala_id, participant_id) values
+insert into galaparticipant (gala_id, participant_id) values -- ganadores 1st semifinal
 	(3, 12), 
 	(3, 31), 
 	(3, 27), 
@@ -169,4 +169,17 @@ insert into galaparticipant (gala_id, participant_id) values
 	(3, 23), 
 	(3, 30), 
 	(3, 10)
+	
+insert into galaparticipant (gala_id, participant_id) values -- ganadores 2st semifinal 
+	(3, 39),
+	(3, 40),
+	(3, 41),
+	(3, 33),
+	(3, 32),
+	(3, 4),
+	(3, 36),
+	(3, 17),
+	(3, 25),
+	(3, 29)
+	
 
